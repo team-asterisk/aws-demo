@@ -1,4 +1,4 @@
-const port = 3001;
-const connectionString = 'mongodb://localhost/test-app';
+const port = 80;
+const connectionString = 'mongodb://asterisk:hardtoguess@35.157.1.2:27017/test-app?authSource=admin';
 
 module.exports = { port, connectionString };
